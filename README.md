@@ -1,4 +1,4 @@
-Microapp Seed
+Microapp Seed - Hackaton
 ===
 
 **Experimental**
@@ -62,7 +62,7 @@ This will create `src/public/jspm_packages`, `src/public/bower_components` and `
 
 Set ENV variables
 ```
-Set ENV variables for AUTHTOKEN and TENANT before you start server locally. 
+Set ENV variables for AUTHTOKEN and TENANT before you start server locally.
 To get token and tenant info, download and import postman collection @
 https://github.com/apmdev/tools/blob/master/service-apis.postman_collection.json and run init-environment
 Copy value of admin.authorization from response of postman and set it to AUTHTOKEN as below.
@@ -91,4 +91,3 @@ Start your server
 This command compiles all the sass files to css and watches on any change in javascript, sass, html files.
 
 Point your browser to http://localhost:9000. If you want to run the app on a different port, edit the "server" task in `app.js`
-
